@@ -1,0 +1,32 @@
+footer {
+    background-color: $footer-background;
+    padding: 20px;
+    width: 100%;
+    margin-left: -20px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer li:first-child {
+    font-size: 30px;
+    font-family: $font;
+    margin-bottom: 30px;
+}
+
+.paletteFooter {
+    margin-top: 333%;
+    overflow: hidden;
+}
+
+.enchantedFooter {
+    margin-top: 333%;
+}
+
+.fullFooter {
+    margin-top: 335%;
+}
