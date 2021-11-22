@@ -84,7 +84,7 @@
     animation: 0.3s linear 0s rotate;
   }
   
-  /*@keyframes slideFromRight {
+  @keyframes slideFromRight {
     0% {
       -webkit-transform: translateX(100%);
       transform: translateX(100%);
@@ -93,22 +93,22 @@
       -webkit-transform: translateX(0%);
       transform: translateX(0%);
     }
-  }*/
+  }
   
-  /*@-webkit-keyframes slideFromRight {
+  @-webkit-keyframes slideFromRight {
     from {
       right: -50%;
     }
     to {
       left: 100%;
     }
-  }*/
+  }
   
-  /*@keyframes slide {
+  @keyframes slide {
     100% {
       left: 0;
     }
-  }*/
+  }
   
   @keyframes rotate {
     0% {
