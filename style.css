@@ -10,6 +10,7 @@ h1 {
   margin-right: auto;
   margin-bottom: 10%;
   width: 50%;
+  height: 60px;
 }
 
 .paletteMenu #enchantedHeader {
@@ -100,6 +101,22 @@ h1 {
 
 figure .material-icons {
   float: right;
+  border: none;
+  background: none;
+}
+
+figure .material-icons {
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+figure .material-icons:hover {
+  color: black;
+}
+
+figure .material-icons:focus {
+  color: black;
 }
 
 img {
@@ -317,6 +334,9 @@ footer li:first-child {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 10280px) {
+  .headImg {
+    margin-bottom: 70px;
+  }
   img {
     height: 80%;
   }
