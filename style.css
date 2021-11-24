@@ -70,6 +70,49 @@ h1 {
   height: 70px;
 }
 
+#number {
+  width: 10%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9356DC;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: small;
+  position: relative;
+  top: 60px;
+  right: 5px;
+}
+
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0px;
+  width: 25%;
+  height: 25px;
+  background-color: #99E2D0;
+  color: green;
+  font-size: 15px;
+  font-weight: bolder;
+  position: relative;
+  top: 70px;
+  left: 220px;
+}
+
 #restaurant img {
   border-radius: 15px;
   width: 100%;
@@ -85,6 +128,10 @@ h1 {
   padding: 0.5em;
   background-color: white;
   border-radius: 25px;
+}
+
+#restaurant figure:nth-of-type(1) {
+  margin-bottom: -30px;
 }
 
 #restaurant figure:last-child {
@@ -112,7 +159,7 @@ figure .material-icons {
 }
 
 figure .material-icons:hover {
-  color: black;
+  color: #FF79DA;
 }
 
 figure .material-icons:focus {
@@ -298,6 +345,25 @@ footer li:first-child {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  #number {
+    width: 15%;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: small;
+    position: relative;
+    top: 30px;
+    left: 25px;
+  }
   #restaurant {
     margin: 50px;
   }
@@ -339,6 +405,11 @@ footer li:first-child {
   }
   img {
     height: 80%;
+  }
+  #number {
+    position: relative;
+    top: 30px;
+    left: 25px;
   }
   .menu {
     display: -webkit-box;

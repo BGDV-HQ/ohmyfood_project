@@ -5,6 +5,20 @@
         flex-direction: row;
     } 
 
+    #number {
+        width: 15%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: #ffffff;
+        font-size: small;
+        position: relative;
+        top: 30px;
+        left: 25px
+    }
+
     #restaurant {
         margin: 50px;
     }
@@ -58,6 +72,12 @@
 
     img {
         height: 80%;
+    }
+
+    #number {
+        position: relative;
+        top: 30px;
+        left: 25px;
     }
     .menu {
         display: flex;
