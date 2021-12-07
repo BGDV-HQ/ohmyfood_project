@@ -1,0 +1,187 @@
+@media only screen and (min-width: 650px) and (max-width: 1024px) { 
+    .menu {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    #number {
+        width: 15%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: #ffffff;
+        font-size: small;
+        position: relative;
+        top: 30px;
+        left: 25px
+    }
+
+    #restaurant {
+        margin: 50px;
+    }
+
+    #restaurant img {
+        height: 80%;
+    }
+
+    #restaurant figure {
+        height: 50%;
+    }
+
+    #restaurant figcaption {
+        font-size: 30px;
+    }
+
+    .new {
+        margin-left: 30%;
+    }
+
+
+    .enchantedPhoto {
+        height: 50%;
+    }
+
+    .paletteMenu button {
+        margin-left: 20%;
+    }
+
+    .paletteMenu h2 {
+        font-size: 50px;
+    }
+
+    .paletteMenu #enchantedHeader {
+        font-size: 50px;
+    }
+
+    .paletteFooter {
+        margin-top: 165%;
+    }
+
+    .enchantedFooter {
+        margin-top: 165%;
+    }
+
+    .fullFooter {
+        margin-top: 165%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 10280px) {
+
+    .headImg {
+        margin-bottom: 70px;
+    }
+
+    img {
+        height: 80%;
+    }
+
+    #number {
+        position: relative;
+        top: 30px;
+        left: 25px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    #restaurant {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10%;
+        height: 100%;
+    }
+
+    #restaurant figure {
+        width: 40%;
+        height: 260px;
+      }
+
+      #restaurant img {
+        height: 80%;
+    }
+
+    .new {
+        margin-left: 10%;
+    }
+
+    .restaurantHeading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #restaurant figure:last-child {
+        height: 260px;
+    }
+
+    .paletteMenu .material-icons {
+        margin-right: 25%;
+    }
+
+    .entreeMenu {
+        width: 30%;
+        float: right;
+        position: relative; 
+        right: 20%;
+    }
+
+    .mainMenu {
+        width: 30%;
+        float: right;
+        position: relative;
+        top: 150px;
+        right: 20%;
+    }
+
+    .dessertMenu {
+        width: 30%;
+        float: right;
+        position: relative;
+        top: 350px;
+        right: 20%;
+    }
+
+    .header, .header2, .header3 {
+        margin-left: 200px;
+    }
+
+    .header2, .header3 {
+        margin-top: 310px;
+    }
+
+    .header3 {
+        margin-top: 610px;
+    }
+
+    .paletteMenu button {
+        margin-top: 450px;
+        margin-left: 300px;
+    }
+
+    .paletteMenu h2 {
+        font-size: 50px;
+    }
+
+    .paletteMenu #enchantedHeader {
+        font-size: 50px;
+    }
+
+    .paletteFooter {
+        margin-top: 95%;
+    }
+
+    .enchantedFooter {
+        margin-top: 95%;
+    }
+
+    .fullFooter {
+        margin-top: 95%;
+    }
+}
