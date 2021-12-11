@@ -1,0 +1,58 @@
+
+
+.headImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 20px;
+}
+
+
+.paletteMenu #enchantedHeader {
+    font-size: 25px;
+}
+
+.location {
+    text-align: center;
+    background-color: $background-grey;
+    padding: 15px;
+    font-weight: normal;
+    margin-top: -20px;
+    box-shadow: $box-shadow;
+}
+
+.material-icons {
+    margin-right: 40px;
+}
+
+#book {
+    text-align: center;
+    background-color: $lightgrey-background;
+    padding: 50px;
+    .heading {
+        font-size: 30px;
+    }
+}
+
+.bottom-heading {
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+#book button {
+    background-image: $background-image;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+
+  #book button a {
+      color: white;
+  }
