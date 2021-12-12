@@ -541,7 +541,6 @@ body {
 .ring {
   content: '';
   position: absolute;
-  right: 7s0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,7 +574,7 @@ body {
   width: 50%;
   height: 50%;
   border: 3px solid transparent;
-  border-top: 3px solid linear-gradient(#da6dcb, #6300b4);
+  border-top: 3px solid #6300b4;
   border-right: 3px solid #da6dcb;
   border-radius: 50%;
   -webkit-animation: animateC 2s linear infinite;
