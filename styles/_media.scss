@@ -1,0 +1,155 @@
+@media only screen and (min-width: 650px) and (max-width: 1024px) { 
+    .menu {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    #number, #number2, #number3 {
+        width: 15%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: #ffffff;
+        font-size: small;
+        position: relative;
+        top: 30px;
+        left: 25px
+    }
+
+    .enchantedPhoto {
+        height: 600px;
+    }
+
+    .paletteMenu button {
+        margin-left: 20%;
+    }
+
+    .paletteMenu h2 {
+        font-size: 50px;
+    }
+
+
+    .paletteMenu #enchantedHeader {
+        font-size: 50px;
+    }
+
+    .paletteFooter {
+        margin-top: 165%;
+    }
+
+    .enchantedFooter {
+        margin-top: 165%;
+    }
+
+    .fullFooter {
+        margin-top: 165%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 10280px) {
+
+    .headImg {
+        width: 50%;
+        height: 100px;
+    }
+
+    .menuHeader, #restaurant_title {
+        text-align: center;
+    }
+
+    .menuHeader {
+        margin-left: 50px;
+    }
+
+   .restaurant_cover_img {
+        height: 900px;
+    }
+    
+    .enchantedPhoto {
+      height: 900px;
+    }
+
+    #number, #number2, #number3 {
+        position: relative;
+        top: 30px;
+        left: 40px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    #restaurants {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+        grid-gap: 15px;
+      }
+
+      #restaurants .menu {
+        min-width:350px;
+      }
+
+      #restaurants #rest_title {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1 / span 2;
+        padding-top: 25px;
+      }
+
+    .header, .header2, .header3 {
+        margin-left: 15%;
+    }
+   
+    .entreeMenu, .mainMenu, .dessertMenu {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+   
+
+    .paletteMenu .material-icons {
+        margin-right: 25%;
+    }
+
+    .paletteMenu button {
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+
+    .paletteMenu h2 {
+        font-size: 50px;
+    }
+
+    .paletteMenu #enchantedHeader {
+        font-size: 50px;
+    }
+
+    .price {
+     
+        margin-left: 200px;
+    }
+
+    .paletteFooter {
+        margin-top: 60%;
+        width: 99%
+    }
+
+    .enchantedFooter {
+        margin-top: 60%;
+        width: 99%
+    }
+
+    .fullFooter {
+        margin-top: 60%;
+        width: 99%
+    }
+
+    footer {
+        width: 99%
+    }
+}

@@ -1,0 +1,251 @@
+// home page
+.menu button {
+    margin: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: 70px;
+}
+
+#number, #number2, #number3 {
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9356DC;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: small;
+    position: relative;
+    top: 60px;
+    right: 5px;
+}
+
+#restaurants {
+    padding: 10px 20px 30px 20px;
+    background: #f6f6f6;
+  }
+
+  #restaurants .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
+  }
+  
+  #restaurants #restaurant-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 60px 0 30px 0;
+  }
+
+  #restaurants .menu_image {
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 70%;
+       object-position: 70%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  #restaurants .tag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 10px;
+    margin-bottom: -40px;
+  }
+  
+  #restaurants .tag .new {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #278870;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #99e2d0;
+    width: 80px;
+    height: 30px;
+    z-index: 9;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(38, 37, 37, 0.1);
+            box-shadow: 0px 5px 5px 0px rgba(38, 37, 37, 0.1);
+  }
+  
+  .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: -4px 0 20px 0;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(38, 37, 37, 0.1);
+            box-shadow: 0px 5px 5px 0px rgba(38, 37, 37, 0.1);
+  }
+  
+  .description .rest_desc {
+    width: 85%;
+    padding: 5px 0 0 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .description .rest_desc h3 {
+    margin: 0;
+  }
+  
+  .description .rest_desc p {
+    margin: 3px 0 5px 0;
+  }
+
+  .heart .material-icons,
+  .paletteMenu .material-icons {
+    float: right;
+    border: none;
+    background: none;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+.heart .material-icons:hover,
+.paletteMenu .material-icons:hover {
+    color: rgb(218, 109, 203);
+}
+
+.heart .material-icons:focus,
+.paletteMenu .material-icons:focus {
+    color: rgb(218, 109, 203);
+}
+
+
+.restaurant_cover_img {
+    width: 100%;
+    align-items: center;
+}
+
+.enchantedPhoto {
+  width: 100%;
+  align-items: center;
+  height: 400px;
+}
+
+.paletteMenu {
+    background-color: $background-grey;
+    background-size: 500% auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    margin-top: -15%;
+    overflow: hidden;
+    position: absolute;  
+}
+
+
+
+.paletteMenu h2 {
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+
+
+.header, .header2, .header3 {
+    margin-left: 25px;
+    font-weight: normal;
+}
+
+.header:before, .header2:before, .header3:before  {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 50%;
+    border-bottom:2px solid #99e2d0;
+  }
+
+.header2 {
+   margin-top: 65px;
+}
+
+.header3 {
+    margin-top: 120px;
+ }
+
+.paletteMenu .material-icons {
+    float: right;
+    font-size: 100%;
+}
+
+.entreeMenu, .mainMenu, .dessertMenu {
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 90%;
+    height: 100%;
+    transition: all 1.1s cubic-bezier(.19,1,.22,1);
+    border: 2px solid transparent;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 5px rgba(0,0,0,.2);
+    margin-top: 10px;
+    margin-bottom:20px;    
+    margin-left: 5px;
+}
+
+.mainMenu {
+    position: relative;
+    top: 100px;
+}
+
+.dessertMenu {
+    position: relative;
+    top: 150px;
+}
+#text, #text2, #text3, #text4, #text5, #text6, #text7, #text8, #text9, #text10 {
+    display: block;
+    margin-left: 20px;
+    line-height: 5px;
+    overflow: hidden;
+  
+}
+.paletteMenu button {
+    background-image: $background-image;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-top: 130px;
+    width: 50%;
+    position: relative;
+    top: 30px;
+    margin-bottom: 20%;
+}
+
+
